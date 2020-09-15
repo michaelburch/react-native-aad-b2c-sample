@@ -32,9 +32,14 @@ git clone https://github.com/michaelburch/react-native-aad-b2c-sample.git
 ```
 2. Install NPM packages
 ```sh
+cd react-native-aad-b2c-sample
 npm install
 ```
-3. Launch on simulator
+3. Update CocoaPods
+```sh
+ (cd ios && pod install)
+```
+4. Launch on simulator
 ```sh
 npx react-native run-ios
 ```
