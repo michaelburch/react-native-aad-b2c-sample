@@ -65,14 +65,10 @@ For demonstrating access token usage, the mobile app has also been granted permi
 
 ## Protected API Registration 
 
-The protected API app (react-native-aad-b2c-sample-**api**) is registered with a web authentication platform and redirect URI. What's important for this sample is that the API app is configured to issue access tokens using the implicit grant flow:
-
-![API App Authentication](/api-auth.png)
-
-
-Also, the API exposes a single scope ('read'):
+The protected API app (react-native-aad-b2c-sample-**api**) is registered with a web authentication platform and redirect URI. What's important for this sample is the API exposes a single scope ('read'):
 
 ![API App Scope](/api-expose.png)
 
+This scope is referenced by the mobile app when an access token is requested at login. 
 
 
