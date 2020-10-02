@@ -44,6 +44,10 @@ npm install
 npx react-native run-ios
 ```
 
+If anyone is running into issues with respect to running npx react-native run-android please update your gradle-wrapper.properties under Project->android->gradle->wrapper folder. 
+
+Also, if you'd like to change the AppID and Tenant please change them under Login.js file and replace with your credentials.
+
 The sample is configured to use a live AADB2C tenant and connected Identity Providers so you can test logging in right away.
 
 <!-- Configuration Details -->
